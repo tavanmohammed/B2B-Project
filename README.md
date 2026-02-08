@@ -38,3 +38,88 @@ The platform is designed for multi-tenant businesses where each organization can
 - **Authorization:** Roles & permissions
 - **API Security:** JWT (Clerk tokens)
 
+B2B project/
+├── backend/
+│ ├── app/
+│ │ ├── api/ # API routes
+│ │ ├── core/ # Auth, config, database
+│ │ ├── models/ # Database models
+│ │ ├── schemas/ # Pydantic schemas
+│ │ └── main.py
+│ ├── .env
+│ └── requirements.txt
+│
+├── frontend/
+│ ├── src/
+│ ├── .env
+│ └── package.json
+│
+└── README.md
+
+
+---
+
+## Backend Setup
+
+```bash
+cd backend
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+
+Create backend/.env (do not commit):
+
+CLERK_SECRET_KEY=your_clerk_secret_key
+CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+FRONTEND_URL=http://localhost:5173
+
+
+Run the backend:
+
+uvicorn app.main:app --reload
+
+
+Backend runs on:
+
+http://localhost:8000
+
+Frontend Setup
+cd frontend
+npm install
+npm run dev
+
+
+Create frontend/.env:
+
+VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+VITE_API_URL=http://localhost:8000
+
+
+Frontend runs on:
+
+http://localhost:5173
+
+Authorization Flow
+
+User authenticates via Clerk
+
+Clerk issues a JWT with organization context
+
+Frontend sends the token to FastAPI
+
+FastAPI validates authentication, role, and permissions
+
+Subscription plan is checked before granting access
+
+Security
+
+Environment variables are excluded via .gitignore
+
+Secrets are never committed
+
+All authorization rules are enforced server-side
+
+License
+
+MIT
