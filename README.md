@@ -120,6 +120,14 @@ Secrets are never committed
 
 All authorization rules are enforced server-side
 
-License
+<img width="1330" height="609" alt="Screenshot 2026-02-08 at 11 07 07 PM" src="https://github.com/user-attachments/assets/2372a6f7-23e2-4c3e-b5ae-2a1ac9dd4926" />
+<img width="1291" height="602" alt="Screenshot 2026-02-08 at 11 07 45 PM" src="https://github.com/user-attachments/assets/7aff766e-3b1d-47e1-9603-8c06dce9ee7e" />
 
-MIT
+
+<img width="1385" height="602" alt="Screenshot 2026-02-08 at 11 08 19 PM" src="https://github.com/user-attachments/assets/bc49a8a2-aad8-4f45-b1ee-d6d6acd1db87" />
+
+
+<img width="1378" height="608" alt="Screenshot 2026-02-08 at 11 10 48 PM" src="https://github.com/user-attachments/assets/870e7ab3-48a6-4a5a-9235-0da38aea2987" />
+
+
+
