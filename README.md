@@ -67,5 +67,7 @@ B2B project/
 
 <img width="1378" height="608" alt="Screenshot 2026-02-08 at 11 10 48 PM" src="https://github.com/user-attachments/assets/870e7ab3-48a6-4a5a-9235-0da38aea2987" />
 
+<img width="1349" height="610" alt="Screenshot 2026-02-08 at 11 11 19 PM" src="https://github.com/user-attachments/assets/c1e206b7-876a-4db4-ba10-679c746c94a7" />
 
+<img width="1357" height="663" alt="Screenshot 2026-02-08 at 11 12 07 PM" src="https://github.com/user-attachments/assets/94a9964e-9397-46e9-8d0c-6816d8b0fe3d" />
 
